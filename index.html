@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>AI as a Thinking Tool in the History Classroom · Work sample</title>
+<meta name="description" content="A work sample: three small interactive history tools built with AI, and how students use them.">
+<link rel="icon" href="assets/emblem.svg">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the work sample</a>
+<div class="banner"><strong>DRAFT, PENDING CONSULTATION.</strong> The First Nations content in these demos has not yet been checked with the communities whose Country and history it describes.</div>
+<header class="wrap top">
+  <div class="envelope">
+    <img src="assets/emblem.svg" alt="" width="96" height="96">
+    <div>
+      <p class="env-eyebrow">Work sample · History classroom</p>
+      <h1>AI as a Thinking Tool</h1>
+      <p class="env-sub">Not just worksheets. Three small tools that make students think like historians.</p>
+    </div>
+  </div>
+  <nav class="jump" aria-label="Demos">
+    <a href="#map-demo">1. Sliding map</a>
+    <a href="#tl-demo">2. Timeline</a>
+    <a href="#rad-demo">3. Read, Ask, Decide</a>
+  </nav>
+</header>
+
+<main id="main" class="wrap">
+
+<section class="opening">
+  <div class="opener">
+    <p>AI is often used to make worksheets faster.</p>
+    <p>This work sample shows another use. A teacher describes a thinking tool in plain words, AI builds it, and the teacher checks every fact against real sources before it reaches a class.</p>
+    <p class="big">Try the three demos below.</p>
+  </div>
+</section>
+
+<!-- 1. Sliding map -->
+<section class="demo" id="map-demo">
+  <p class="eyebrow">Demo 1</p>
+  <h2>The sliding map</h2>
+  <span class="draft">Draft, pending consultation</span>
+  <p>Slide or press Play to watch the sea rise around Sahul: Australia, New Guinea and Tasmania joined as one land.</p>
+  <div class="mapcard">
+    <p class="maplbl" id="maplbl" aria-live="polite"></p>
+    <svg class="mapsvg" id="mapsvg" role="img" aria-label="Map of Australia, New Guinea and Tasmania. The land shrinks as the sea rises. Tap to enlarge."></svg>
+    <div class="mapctl"><button type="button" class="btn" id="mapplay">▶ Play</button><input type="range" id="mapr" min="0" max="3" step="1" value="0" aria-label="Time, from the Ice Age to today"></div>
+    <div class="legend"><span><i style="background:#c98f4c"></i>Land at that time</span><span><i style="background:none;border:2px dashed #1d3b4a;height:10px"></i>Coast today</span><span><i style="background:#b3261e;border-radius:50%;width:12px"></i>Places</span></div>
+    <p class="small">Drawn from today’s sea-floor depths. It shows the idea, not the exact coast at each time. Tap the map to enlarge it.</p>
+    <p class="src-btns"><a class="src-btn" href="https://www.nma.gov.au/defining-moments/resources/separation-of-tasmania" target="_blank" rel="noopener">National Museum of Australia ↗</a><a class="src-btn" href="https://doi.org/10.1016/j.quascirev.2017.11.030" target="_blank" rel="noopener">Quaternary Science Reviews, 2018 ↗</a><a class="src-btn" href="https://www.ncei.noaa.gov/products/etopo-global-relief-model" target="_blank" rel="noopener">Sea-floor data (NOAA) ↗</a></p>
+  </div>
+  <div class="how">
+    <h3>How students use it</h3>
+    <ul>
+      <li>Students slide the map and describe what changes, and when.</li>
+      <li>They stop at one point in time and ask what the rising sea meant for the people living on that land.</li>
+      <li>They compare what the map shows with what it can’t show.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2. Timeline -->
+<section class="demo" id="tl-demo">
+  <p class="eyebrow">Demo 2</p>
+  <h2>The drag-to-order timeline</h2>
+  <span class="draft">Draft, pending consultation</span>
+  <p>Drag the cards into order, earliest at the top. Or use the ▲ ▼ buttons. Then check.</p>
+  <ol class="tl" id="tl" aria-label="Timeline cards"></ol>
+  <p class="tlmsg" id="tlmsg" aria-live="polite"></p>
+  <div class="tools left"><button type="button" class="btn" id="tlcheck">Check my order</button><button type="button" class="btn alt" id="tlshow">Show the order</button><button type="button" class="btn alt" id="tlshuffle">Shuffle again</button></div>
+  <p class="src-btns" style="margin-top:14px"><a class="src-btn" href="https://doi.org/10.1038/nature22968" target="_blank" rel="noopener">Nature, 2017 ↗</a><a class="src-btn" href="https://www.nma.gov.au/defining-moments/resources/mungo-lady" target="_blank" rel="noopener">NMA: Lake Mungo ↗</a><a class="src-btn" href="https://www.nma.gov.au/defining-moments/resources/separation-of-tasmania" target="_blank" rel="noopener">NMA: Tasmania ↗</a><a class="src-btn" href="https://whc.unesco.org/en/list/1577/" target="_blank" rel="noopener">UNESCO: Budj Bim ↗</a><a class="src-btn" href="https://digital-classroom.nma.gov.au/defining-moments/first-fleet-arrives-sydney-cove" target="_blank" rel="noopener">NMA: First Fleet ↗</a></p>
+  <div class="how">
+    <h3>How students use it</h3>
+    <ul>
+      <li>Students order the events from what they have read, before they check.</li>
+      <li>They look at the dates and the gaps between them, and say what a short list of events leaves out.</li>
+      <li>They explain one link between two cards: what came first, and what followed.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 3. Read, Ask, Decide -->
+<section class="demo" id="rad-demo">
+  <p class="eyebrow">Demo 3</p>
+  <h2>Read, Ask, Decide</h2>
+  <p><strong>How long have people lived in Australia, and how do we know?</strong></p>
+
+  <h3>1. Read: what is agreed</h3>
+  <div class="box">
+    <span class="draft">Draft, pending consultation</span>
+    <ul>
+      <li>All the sources here say First Nations people have lived in Australia for tens of thousands of years.</li>
+      <li>Scientists do not agree on exactly when people first arrived. One team says about 65,000 years ago. Another team says about 50,000 to 55,000 years ago.</li>
+    </ul>
+  </div>
+
+  <h3>2. Ask: three witnesses, three questions</h3>
+  <ol class="qs"><li>1. What did they say they saw?</li><li>2. Could they really have seen it?</li><li>3. Why might they say it?</li></ol>
+  <p class="small">The pictures are silhouettes or drawings. No face has been invented. Tap a picture to make it bigger.</p>
+
+  <article class="witness" id="w-dig">
+    <figure><button type="button" class="zoom zoomart" data-full="assets/img/madjedbebe-team.png" data-cap="Silhouette. Not a likeness."><img src="assets/img/madjedbebe-team.png" alt="Silhouette of three people labelled The Madjedbebe team, 2017. Not a likeness."></button><figcaption>Silhouette. Not a likeness.</figcaption></figure>
+    <div><span class="draft">Draft, pending consultation</span><h3>The Madjedbebe team</h3><p class="role">Scientists who dug at Madjedbebe · 2017</p>
+      <blockquote>“Human occupation began around 65,000 years ago …”</blockquote>
+      <p class="plain">In plain words: people were living at Madjedbebe around 65,000 years ago.</p>
+      <p class="src">Source. Chris Clarkson, Zenobia Jacobs, Ben Marwick and others, “Human occupation of northern Australia by 65,000 years ago”, Nature 547 (2017), 306–310.</p>
+      <p class="src-btns"><a class="src-btn" href="https://doi.org/10.1038/nature22968" target="_blank" rel="noopener">See the source (Nature) ↗</a></p>
+      <label class="field" for="q-dig-saw">1. What did they say they saw?</label><textarea id="q-dig-saw" data-key="q-dig-saw" rows="2"></textarea>
+      <label class="field" for="q-dig-could">2. Could they really have seen it?</label><textarea id="q-dig-could" data-key="q-dig-could" rows="2"></textarea>
+      <label class="field" for="q-dig-why">3. Why might they say it?</label><textarea id="q-dig-why" data-key="q-dig-why" rows="2"></textarea>
+    </div>
+  </article>
+
+  <article class="witness" id="w-review">
+    <figure><button type="button" class="zoom zoomart" data-full="assets/img/review-team.png" data-cap="Silhouette. Not a likeness."><img src="assets/img/review-team.png" alt="Silhouette of three people labelled The 2018 review team. Not a likeness."></button><figcaption>Silhouette. Not a likeness.</figcaption></figure>
+    <div><span class="draft">Draft, pending consultation</span><h3>The 2018 review team</h3><p class="role">Scientists who checked the Madjedbebe reports · 2018</p>
+      <blockquote>“We find that an age estimate of &gt;50 ka for this site is unlikely to be valid.”</blockquote>
+      <p class="plain">In plain words: they think “more than 50,000 years” for Madjedbebe is unlikely to be right. (“ka” means a thousand years.)</p>
+      <p class="src">Source. James F. O’Connell, Jim Allen, Martin A. J. Williams and others, “When did Homo sapiens first reach Southeast Asia and Sahul?”, PNAS 115, no. 34 (2018), 8482–8490.</p>
+      <p class="src-btns"><a class="src-btn" href="https://doi.org/10.1073/pnas.1808385115" target="_blank" rel="noopener">See the source (PNAS) ↗</a></p>
+      <label class="field" for="q-review-saw">1. What did they say they saw?</label><textarea id="q-review-saw" data-key="q-review-saw" rows="2"></textarea>
+      <label class="field" for="q-review-could">2. Could they really have seen it?</label><textarea id="q-review-could" data-key="q-review-could" rows="2"></textarea>
+      <label class="field" for="q-review-why">3. Why might they say it?</label><textarea id="q-review-why" data-key="q-review-why" rows="2"></textarea>
+    </div>
+  </article>
+
+  <article class="witness" id="w-budj">
+    <figure><button type="button" class="zoomart" id="w-budj-art" data-svg="eel" aria-label="Drawing of how a stone eel trap works. Tap to enlarge."></button><figcaption>Drawing of how a stone eel trap works. Not a picture of a real trap.</figcaption></figure>
+    <div><span class="draft">Draft, pending consultation</span><h3>The Budj Bim World Heritage listing</h3><p class="role">UNESCO World Heritage Committee · 2019</p>
+      <blockquote>“For the Gunditjmara, deep time refers to the idea that they have always been there. From an archaeological perspective, deep time refers to a period of at least 32,000 years that Aboriginal people have lived in the Budj Bim Cultural Landscape.”</blockquote>
+      <p class="plain">In plain words: the Gunditjmara say they have always been there. Archaeologists say people have lived there for at least 32,000 years.</p>
+      <p class="src">Source. UNESCO World Heritage Centre, “Budj Bim Cultural Landscape”, inscribed 2019, Statement of Outstanding Universal Value.</p>
+      <p class="src-btns"><a class="src-btn" href="https://whc.unesco.org/en/list/1577/" target="_blank" rel="noopener">See the source (UNESCO) ↗</a></p>
+      <label class="field" for="q-budj-saw">1. What did they say they saw?</label><textarea id="q-budj-saw" data-key="q-budj-saw" rows="2"></textarea>
+      <label class="field" for="q-budj-could">2. Could they really have seen it?</label><textarea id="q-budj-could" data-key="q-budj-could" rows="2"></textarea>
+      <label class="field" for="q-budj-why">3. Why might they say it?</label><textarea id="q-budj-why" data-key="q-budj-why" rows="2"></textarea>
+    </div>
+  </article>
+
+  <h3>3. Decide</h3>
+  <div class="box">
+    <fieldset class="choices"><legend>Pick the finding closest to yours.</legend>
+      <label><input type="radio" name="finding" value="65"> At least 65,000 years.</label>
+      <label><input type="radio" name="finding" value="50"> About 50,000 to 55,000 years.</label>
+      <label><input type="radio" name="finding" value="tens"> Tens of thousands of years, but the experts do not agree on the exact number.</label>
+      <label><input type="radio" name="finding" value="cantknow"> We can’t know the exact number from these sources.</label>
+      <label><input type="radio" name="finding" value="other"> My own finding.</label>
+    </fieldset>
+    <label class="field" for="reason">My finding, and why</label>
+    <textarea id="reason" data-key="reason" rows="4"></textarea>
+    <div class="tools"><button type="button" class="btn alt" id="clear">Clear my answers</button></div>
+  </div>
+  <p class="small">Your answers stay in this browser, on this device only. Nothing is sent anywhere.</p>
+
+  <div class="how">
+    <h3>How students use it</h3>
+    <ul>
+      <li>Students read what is agreed, then question each witness with the same three questions.</li>
+      <li>They judge how far each account can be trusted, and why it might have been written.</li>
+      <li>They choose a finding and give a reason. “We can’t know” is always an option, so students practise saying when the records leave too much out.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Safeguards</h2>
+  <ul class="safe">
+    <li>Real, cited sources only. No invented quotes or faces.</li>
+    <li>First Nations content is marked “Draft, pending consultation”.</li>
+    <li>No student data is collected. Answers stay in the student’s own browser.</li>
+  </ul>
+  <p class="series">These demos come from a wider series of history investigations built the same way.</p>
+  <div class="qr-end">
+    <img src="assets/qr.png" alt="QR code with the Thinking Tools emblem. It opens this work sample." width="380" height="380">
+    <p class="small">Scan to open this work sample.</p>
+  </div>
+</section>
+</main>
+
+<footer class="wrap">
+  <p><strong>AI as a Thinking Tool</strong> · Work sample · Draft, pending consultation.</p>
+  <p>Sources: Nature (2017); PNAS (2018); Quaternary Science Reviews (2018); UNESCO World Heritage Centre (Budj Bim); National Museum of Australia; NOAA ETOPO1.</p>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged picture"><button type="button" aria-label="Close">✕</button><img alt=""><div class="lbsvg" hidden></div><p></p></div>
+<script src="assets/map-data.js"></script>
+<script src="assets/eel.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
