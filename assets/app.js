@@ -29,7 +29,7 @@ const FR=[['-120','The last Ice Age','The sea is about 120 metres lower. Austral
 // ---------- timeline ----------
 const EV=[
  {id:'mad',t:'Scientists date stone tools and ochre at Madjedbebe, on Mirarr Country.',d:'About 65,000 years ago (Nature, 2017). Other scientists say about 50,000 to 55,000.'},
- {id:'mun',t:'Two people are buried at Lake Mungo, in south-western New South Wales.',d:'40,000 to 42,000 years ago (National Museum of Australia).'},
+ {id:'mun',t:'At Lake Mungo, in south-western New South Wales, a woman is cremated and a man is buried with red ochre.',d:'40,000 to 42,000 years ago (National Museum of Australia).'},
  {id:'tas',t:'The rising sea covers the land bridge, and Tasmania becomes an island.',d:'About 12,000 years ago (National Museum of Australia).'},
  {id:'bud',t:'The Gunditjmara build stone channels and ponds at Budj Bim to catch eels.',d:'For at least 6,600 years (UNESCO).'},
  {id:'fle',t:'Eleven British ships, the First Fleet, arrive at Sydney Cove.',d:'26 January 1788 (National Museum of Australia).'}];
